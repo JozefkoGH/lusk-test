@@ -1128,11 +1128,16 @@ init();
 <button id="mute-btn" onclick="toggleMute()" title="Zapnúť/vypnúť zvuk">🔊</button>
 
 <!-- PWA INSTALL BANNER -->
-<div id="pwa-banner" style="display:none;position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%);z-index:9500;background:#1a120b;border:1px solid var(--gold);border-radius:12px;padding:1rem 1.4rem;box-shadow:0 4px 24px rgba(0,0,0,.7);align-items:center;gap:1rem;max-width:92vw;min-width:280px">
-  <img src="/lusk-test/apple-touch-icon.png" style="width:44px;height:44px;border-radius:8px;flex-shrink:0" alt="ĽUSK"/>
-  <span style="font-family:'EB Garamond',serif;color:var(--cream);font-size:1rem;flex:1">Ak chceš, pridaj si ĽUSK na plochu</span>
+<div id="pwa-banner" style="display:none;position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%);z-index:9500;background:#1a120b;border:1px solid var(--gold);border-radius:12px;padding:.9rem 1.2rem;box-shadow:0 4px 24px rgba(0,0,0,.7);flex-direction:column;gap:.7rem;width:92vw;max-width:440px">
+  <div style="display:flex;align-items:center;gap:.8rem">
+    <img src="/lusk-test/apple-touch-icon.png" style="width:40px;height:40px;border-radius:7px;flex-shrink:0" alt="ĽUSK"/>
+    <span style="font-family:'EB Garamond',serif;color:var(--cream);font-size:1rem;line-height:1.3">Ak chceš, pridaj si ĽUSK na plochu</span>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:.7rem">
+  <span style="font-family:'EB Garamond',serif;color:var(--cream);font-size:.95rem;flex:1;line-height:1.3">Ak chceš, pridaj si ĽUSK na plochu</span>
   <button id="pwa-yes" style="background:var(--gold);color:#0f0c09;border:none;border-radius:6px;padding:.45rem .9rem;font-family:'Playfair Display',serif;font-size:.9rem;cursor:pointer;font-weight:700">Áno</button>
   <button id="pwa-no" style="background:transparent;color:rgba(245,237,224,.5);border:none;padding:.45rem .6rem;font-size:.9rem;cursor:pointer">Nie</button>
+  </div>
 </div>
 
 <style>
