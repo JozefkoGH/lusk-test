@@ -1,0 +1,24 @@
+{
+  "name": "Ľudový súbor ĽUSK Kráľová",
+  "short_name": "ĽUSK",
+  "description": "Oficiálna stránka folklórneho súboru ĽUSK Kráľová",
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#b5202a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
